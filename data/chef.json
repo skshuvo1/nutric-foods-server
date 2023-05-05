@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Chef Ali",
-      "image": "https://example.com/chef-ali.jpg",
+      "image": "https://www.arabnews.pk/sites/default/files/styles/n_670_395/public/2020/11/07/2338071-958097735.jpg?itok=N1H0QDeP",
       "description": "Chef Ali is a master of Pakistani cuisine, with a specialization in spicy curries and succulent kababs.",
       "yearOfExperience": 15,
       "recipe": 18,
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Chef Fatima",
-      "image": "https://example.com/chef-fatima.jpg",
+      "image": "https://www.nation.com.pk/print_images/extra-large/2019-01-26/top-chef-loses-battle-against-cancer-1548452340-9929.jpg",
       "description": "Chef Fatima is an expert in Pakistani street food, with a talent for creating mouthwatering chaats and samosas.",
       "yearOfExperience": 8,
       "recipe": 21,
@@ -20,7 +20,7 @@
     {
       "id": 3,
       "name": "Chef Hassan",
-      "image": "https://example.com/chef-hassan.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BA-Tla8UJCQKOTEj4i6eU2iLUWQXkUrEQQ&usqp=CAU",
       "description": "Chef Hassan is a creative Pakistani chef who blends traditional recipes with modern techniques to create unique and delicious dishes.",
       "yearOfExperience": 12,
       "recipe": 15,
@@ -29,7 +29,7 @@
     {
       "id": 4,
       "name": "Chef Aisha",
-      "image": "https://example.com/chef-aisha.jpg",
+      "image": "https://i.dawn.com/primary/2022/03/6228a270dcf97.jpg",
       "description": "Chef Aisha is a talented chef with a passion for creating traditional Pakistani dishes with a modern twist.",
       "yearOfExperience": 7,
       "recipe": 14,
@@ -38,7 +38,7 @@
     {
       "id": 5,
       "name": "Chef Ahmed",
-      "image": "https://example.com/chef-ahmed.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UdMo5N1wBgtUOyYFzV_r54at1XXF3q0ETg&usqp=CAU",
       "description": "Chef Ahmed is a skilled chef who specializes in creating flavorful and aromatic Pakistani biryanis and pulaos.",
       "yearOfExperience": 10,
       "recipe": 17,
@@ -47,7 +47,7 @@
     {
       "id": 6,
       "name": "Chef Nida",
-      "image": "https://example.com/chef-nida.jpg",
+      "image": "https://img.freepik.com/premium-photo/young-chef-girl-white-outfit-holding-bowl-ok-sign-indian-pakistani-model_561639-4425.jpg",
       "description": "Chef Nida is an expert in Pakistani desserts, with a talent for creating mouthwatering sweet treats such as gulab jamuns and ras malai.",
       "yearOfExperience": 8,
       "recipe": 8,
@@ -56,7 +56,7 @@
     {
       "id": 7,
       "name": "Chef Omar",
-      "image": "https://example.com/chef-omar.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA91wJJaYf9o9_785xc09nHJVZjx3-xywDFg&usqp=CAU",
       "description": "Chef Omar is a creative Pakistani chef who is known for his unique and delicious fusion dishes that combine Pakistani and international flavors.",
       "yearOfExperience": 12,
       "recipe": 16,
@@ -65,7 +65,7 @@
     {
       "id": 8,
       "name": "Chef Sana",
-      "image": "https://example.com/chef-sana.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe843wDHg8oYfXk5NsLrTCrFmkTkyVOOGDhg&usqp=CAU",
       "description": "Chef Sana is a talented chef who specializes in creating healthy and nutritious Pakistani dishes that are also delicious.",
       "yearOfExperience": 7,
       "recipe": 10,
@@ -74,20 +74,12 @@
     {
       "id": 9,
       "name": "Chef Imran",
-      "image": "https://example.com/chef-imran.jpg",
+      "image": "https://w7.pngwing.com/pngs/21/958/png-transparent-pastry-chef-restaurant-pakistani-cuisine-food-chef-s-miscellaneous-food-gourmet.png",
       "description": "Chef Imran is an expert in Pakistani barbecue, with a talent for creating succulent and flavorful grilled meats.",
       "yearOfExperience": 10,
       "recipe": 13,
       "likes": 1200
-    },
-    {
-      "id": 10,
-      "name": "Chef Mariam",
-      "image": "https://example.com/chef-mariam", 
-      "description": "Chef Sana is a talented chef who specializes in creating healthy and nutritious Pakistani dishes that are also delicious.",
-      "yearOfExperience": 10,
-      "recipe": 18,
-      "likes": 1200
     }
+   
 ]
   
