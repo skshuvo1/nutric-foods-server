@@ -9,7 +9,7 @@ app.use(cors())
 const chefs = require('./data/chef.json')
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('server is running...')
 })
 
 app.get('/allData', (req, res) => {
