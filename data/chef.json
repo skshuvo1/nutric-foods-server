@@ -1,85 +1,773 @@
 [
-    {
-      "id": 1,
-      "name": "Chef Ali",
-      "image": "https://www.arabnews.pk/sites/default/files/styles/n_670_395/public/2020/11/07/2338071-958097735.jpg?itok=N1H0QDeP",
-      "description": "Chef Ali is a master of Pakistani cuisine, with a specialization in spicy curries and succulent kababs.",
-      "yearOfExperience": 15,
-      "recipe": 18,
-      "likes": 2000
-    },
-    {
-      "id": 2,
-      "name": "Chef Fatima",
-      "image": "https://www.nation.com.pk/print_images/extra-large/2019-01-26/top-chef-loses-battle-against-cancer-1548452340-9929.jpg",
-      "description": "Chef Fatima is an expert in Pakistani street food, with a talent for creating mouthwatering chaats and samosas.",
-      "yearOfExperience": 8,
-      "recipe": 21,
-      "likes": 1000
-    },
-    {
-      "id": 3,
-      "name": "Chef Hassan",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BA-Tla8UJCQKOTEj4i6eU2iLUWQXkUrEQQ&usqp=CAU",
-      "description": "Chef Hassan is a creative Pakistani chef who blends traditional recipes with modern techniques to create unique and delicious dishes.",
-      "yearOfExperience": 12,
-      "recipe": 15,
-      "likes": 1500
-    },
-    {
-      "id": 4,
-      "name": "Chef Aisha",
-      "image": "https://i.dawn.com/primary/2022/03/6228a270dcf97.jpg",
-      "description": "Chef Aisha is a talented chef with a passion for creating traditional Pakistani dishes with a modern twist.",
-      "yearOfExperience": 7,
-      "recipe": 14,
-      "likes": 800
-    },
-    {
-      "id": 5,
-      "name": "Chef Ahmed",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UdMo5N1wBgtUOyYFzV_r54at1XXF3q0ETg&usqp=CAU",
-      "description": "Chef Ahmed is a skilled chef who specializes in creating flavorful and aromatic Pakistani biryanis and pulaos.",
-      "yearOfExperience": 10,
-      "recipe": 17,
-      "likes": 1200
-    },
-    {
-      "id": 6,
-      "name": "Chef Nida",
-      "image": "https://img.freepik.com/premium-photo/young-chef-girl-white-outfit-holding-bowl-ok-sign-indian-pakistani-model_561639-4425.jpg",
-      "description": "Chef Nida is an expert in Pakistani desserts, with a talent for creating mouthwatering sweet treats such as gulab jamuns and ras malai.",
-      "yearOfExperience": 8,
-      "recipe": 8,
-      "likes": 1000
-    },
-    {
-      "id": 7,
-      "name": "Chef Omar",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA91wJJaYf9o9_785xc09nHJVZjx3-xywDFg&usqp=CAU",
-      "description": "Chef Omar is a creative Pakistani chef who is known for his unique and delicious fusion dishes that combine Pakistani and international flavors.",
-      "yearOfExperience": 12,
-      "recipe": 16,
-      "likes": 1500
-    },
-    {
-      "id": 8,
-      "name": "Chef Sana",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe843wDHg8oYfXk5NsLrTCrFmkTkyVOOGDhg&usqp=CAU",
-      "description": "Chef Sana is a talented chef who specializes in creating healthy and nutritious Pakistani dishes that are also delicious.",
-      "yearOfExperience": 7,
-      "recipe": 10,
-      "likes": 800
-    },
-    {
-      "id": 9,
-      "name": "Chef Imran",
-      "image": "https://w7.pngwing.com/pngs/21/958/png-transparent-pastry-chef-restaurant-pakistani-cuisine-food-chef-s-miscellaneous-food-gourmet.png",
-      "description": "Chef Imran is an expert in Pakistani barbecue, with a talent for creating succulent and flavorful grilled meats.",
-      "yearOfExperience": 10,
-      "recipe": 13,
-      "likes": 1200
-    }
-   
+  {
+    "id": 1,
+    "name": "Chef Ali",
+    "image": "https://www.arabnews.pk/sites/default/files/styles/n_670_395/public/2020/11/07/2338071-958097735.jpg?itok=N1H0QDeP",
+    "description": "Chef Ali is a master of Pakistani cuisine, with a specialization in spicy curries and succulent kababs.",
+    "yearOfExperience": 15,
+    "recipe": 18,
+    "likes": 2000,
+    "recipes": [
+      {
+        "recipeName": "Chicken Karahi",
+        "recipeImage": "https://butteroverbae.com/wp-content/uploads/2022/11/chicken-karahi-close-up-2.jpg",
+        "ingredients": [
+          "Chicken",
+          "Tomatoes",
+          "Green chilies",
+          "Ginger",
+          "Garlic"
+        ],
+        "cookingMethod": "Cook chicken with tomatoes, green chilies, ginger, and garlic in a karahi (wok) until the chicken is done. Serve with naan bread or rice.",
+        "rating": 4.5
+      },
+      {
+        "recipeName": "Beef Biryani",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcaCgH9ENS2r_wUQ1G1dGnZmTM6j6LG9Sy-g&usqp=CAU",
+        "ingredients": [
+          "Beef",
+          "Rice",
+          "Yogurt",
+          "Onions",
+          "Spices"
+        ],
+        "cookingMethod": "Marinate beef in yogurt and spices, then layer with rice and onions in a pot and cook until fully done. Serve with raita (yogurt dip).",
+        "rating": 4.2
+      },
+      {
+        "recipeName": "Haleem",
+        "recipeImage": "https://hyderabadiruchulu.com/wp-content/uploads/2020/06/veg-haleem-500x500.jpg",
+        "ingredients": [
+          "Lamb",
+          "Lentils",
+          "Wheat",
+          "Spices",
+          "Onions"
+        ],
+        "cookingMethod": "Slow-cook lamb, lentils, wheat, and spices until everything is fully cooked and mixed together. Garnish with fried onions and serve with naan bread.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Palak Paneer",
+        "recipeImage": "https://gypsyplate.com/wp-content/uploads/2022/10/palak-paneer_square-480x480.jpg",
+        "ingredients": [
+          "Spinach",
+          "Paneer",
+          "Onions",
+          "Spices",
+          "Tomatoes"
+        ],
+        "cookingMethod": "Cook spinach and spices, then add paneer and tomatoes and cook until the paneer is fully cooked. Serve with naan bread or rice.",
+        "rating": 4.4
+      },
+      {
+        "recipeName": "Aloo Gobi",
+        "recipeImage": "https://www.cookwithmanali.com/wp-content/uploads/2014/09/Indian-Aloo-Gobi-480x270.jpg",
+        "ingredients": [
+          "Potatoes",
+          "Cauliflower",
+          "Onions",
+          "Spices",
+          "Tomatoes"
+        ],
+        "cookingMethod": "Cook potatoes, cauliflower, and spices with onions and tomatoes until everything is fully cooked. Serve with naan bread or rice.",
+        "rating": 4.6
+      },
+      {
+        "recipeName": "Chicken Tikka Masala",
+        "recipeImage": "https://www.jocooks.com/wp-content/uploads/2019/06/instant-pot-chicken-tikka-masala-1-4.jpg",
+        "ingredients": [
+          "Chicken",
+          "Yogurt",
+          "Tomatoes",
+          "Spices",
+          "Cream"
+        ],
+        "cookingMethod": "Marinate chicken in yogurt and spices, grill until fully cooked, then simmer in a tomato and cream sauce. Serve with naan bread or rice.",
+        "rating": 4.3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Chef Fatima",
+    "image": "https://www.nation.com.pk/print_images/extra-large/2019-01-26/top-chef-loses-battle-against-cancer-1548452340-9929.jpg",
+    "description": "Chef Fatima is an expert in Pakistani street food, with a talent for creating mouthwatering chaats and samosas.",
+    "yearOfExperience": 8,
+    "recipe": 21,
+    "likes": 1000,
+    "recipes": [
+      {
+        "recipeName": "Biryani",
+        "recipeImage": "https://geekrobocook.com/wp-content/uploads/2021/04/Pakistani-biryani-1200x900.jpg",
+        "ingredients": [
+          "Basmati Rice",
+          "Chicken",
+          "Onion",
+          "Yogurt",
+          "Tomatoes"
+        ],
+        "cookingMethod": "Cook the chicken with onions and tomatoes, add spices, layer the chicken mixture and rice in a pot, and cook until fully done. Serve with raita (yogurt dip).",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Samosas",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmd8D4IhtuaZVPMfgYUYk0ishXQu5l14pXGw&usqp=CAU",
+        "ingredients": [
+          "Flour",
+          "Potatoes",
+          "Peas",
+          "Spices",
+          "Oil"
+        ],
+        "cookingMethod": "Make a dough with flour, fill with spiced potato and pea mixture, and deep fry until golden brown. Serve with chutney.",
+        "rating": 4.5
+      },
+      {
+        "recipeName": "Chicken Karahi",
+        "recipeImage": "https://butteroverbae.com/wp-content/uploads/2022/11/chicken-karahi-close-up-2.jpg",
+        "ingredients": [
+          "Chicken",
+          "Tomatoes",
+          "Green Chillies",
+          "Ginger",
+          "Garlic"
+        ],
+        "cookingMethod": "Cook chicken with ginger, garlic, tomatoes and green chillies, add spices and simmer until fully cooked. Garnish with fresh coriander and serve hot.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Aloo Palak",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQR8EQu7DO4faex2McTQP59F7bb185DgD4eg&usqp=CAU",
+        "ingredients": [
+          "Spinach",
+          "Potatoes",
+          "Onion",
+          "Garlic",
+          "Spices"
+        ],
+        "cookingMethod": "Cook potatoes and spinach with onions and garlic, add spices, and cook until fully done. Serve hot with roti or naan.",
+        "rating": 4.3
+      },
+      {
+        "recipeName": "Kheer",
+        "recipeImage": "https://www.foodies.pk/wp-content/uploads/2019/09/Delicious-Traditional-Pakistani-Kheer.jpg",
+        "ingredients": [
+          "Rice",
+          "Milk",
+          "Sugar",
+          "Cardamom",
+          "Almonds"
+        ],
+        "cookingMethod": "Cook rice in milk with sugar and cardamom, add almonds, and simmer until thick and creamy. Serve chilled.",
+        "rating": 4.6
+      },
+      {
+        "recipeName": "Chapli Kabab",
+        "recipeImage": "https://www.pakistanichefrecipes.com/wp-content/uploads/2019/07/Chapli-Kabab-500x500.jpg",
+        "ingredients": [
+          "Ground Beef",
+          "Onion",
+          "Tomatoes",
+          "Egg",
+          "Spices"
+        ],
+        "cookingMethod": "Mix ground beef with onions, tomatoes, egg, and spices, form into patties, and fry until fully cooked. Serve with raita and naan.",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Chef Hassan",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BA-Tla8UJCQKOTEj4i6eU2iLUWQXkUrEQQ&usqp=CAU",
+    "description": "Chef Hassan is a creative Pakistani chef who blends traditional recipes with modern techniques to create unique and delicious dishes.",
+    "yearOfExperience": 12,
+    "recipe": 15,
+    "likes": 1500,
+    "recipes": [
+      {
+        "recipeName": "Biryani",
+        "recipeImage": "https://geekrobocook.com/wp-content/uploads/2021/04/Pakistani-biryani-1200x900.jpg",
+        "ingredients": [
+          "Basmati rice",
+          "Chicken",
+          "Onions",
+          "Tomatoes",
+          "Spices"
+        ],
+        "cookingMethod": "1. Soak rice for 30 minutes\n2. Cook chicken with spices and onions\n3. Layer rice and chicken in a pot\n4. Cook on low heat for 20 minutes",
+        "rating": 4.5
+      },
+      {
+        "recipeName": "Haleem",
+        "recipeImage": "https://hyderabadiruchulu.com/wp-content/uploads/2020/06/veg-haleem-500x500.jpg",
+        "ingredients": [
+          "Lamb",
+          "Wheat",
+          "Onions",
+          "Spices",
+          "Lentils"
+        ],
+        "cookingMethod": "1. Soak wheat and lentils for 6 hours\n2. Cook lamb with spices and onions\n3. Mix wheat and lentils with lamb\n4. Cook on low heat for 4 hours",
+        "rating": 4.2
+      },
+      {
+        "recipeName": "Nihari",
+        "recipeImage": "https://untoldrecipesbynosheen.com/wp-content/uploads/2020/09/nihari-main-1-1200x800.jpeg",
+        "ingredients": [
+          "Beef",
+          "Bones",
+          "Onions",
+          "Spices",
+          "Flour"
+        ],
+        "cookingMethod": "1. Cook beef and bones with spices and onions for 4 hours\n2. Mix flour with water to make a paste\n3. Add paste to the beef and cook for 30 minutes\n4. Serve hot with garnish",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Samosas",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmd8D4IhtuaZVPMfgYUYk0ishXQu5l14pXGw&usqp=CAU",
+        "ingredients": [
+          "Potatoes",
+          "Peas",
+          "Onions",
+          "Spices",
+          "Pastry"
+        ],
+        "cookingMethod": "1. Cook potatoes and peas with spices and onions\n2. Fill pastry with mixture and fold\n3. Fry in oil until golden brown",
+        "rating": 4.0
+      },
+      {
+        "recipeName": "Chaat",
+        "recipeImage": "https://i.ytimg.com/vi/6SIk77A4RU0/maxresdefault.jpg",
+        "ingredients": [
+          "Potatoes",
+          "Chickpeas",
+          "Onions",
+          "Chutney",
+          "Spices"
+        ],
+        "cookingMethod": "1. Boil potatoes and chickpeas\n2. Mix with spices and onions\n3. Add chutney and serve cold",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Kheer",
+        "recipeImage": "https://www.foodies.pk/wp-content/uploads/2019/09/Delicious-Traditional-Pakistani-Kheer.jpg",
+        "ingredients": [
+          "Rice",
+          "Milk",
+          "Sugar",
+          "Cardamom",
+          "Almonds"
+        ],
+        "cookingMethod": "1. Cook rice in milk with sugar and cardamom\n2. Add almonds and cook until thickened\n3. Serve hot or cold",
+        "rating": 4.3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chef Aisha",
+    "image": "https://i.dawn.com/primary/2022/03/6228a270dcf97.jpg",
+    "description": "Chef Aisha is a talented chef with a passion for creating traditional Pakistani dishes with a modern twist.",
+    "yearOfExperience": 7,
+    "recipe": 14,
+    "likes": 800,
+    "recipes": [
+      {
+        "recipeName": "Samosas",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmd8D4IhtuaZVPMfgYUYk0ishXQu5l14pXGw&usqp=CAU",
+        "ingredients": [
+          "Potatoes",
+          "Peas",
+          "Onions",
+          "Spices",
+          "Pastry"
+        ],
+        "cookingMethod": "1. Cook potatoes and peas with spices and onions\n2. Fill pastry with mixture and fold\n3. Fry in oil until golden brown",
+        "rating": 4.0
+      },
+      {
+        "recipeName": "Chaat",
+        "recipeImage": "https://i.ytimg.com/vi/6SIk77A4RU0/maxresdefault.jpg",
+        "ingredients": [
+          "Potatoes",
+          "Chickpeas",
+          "Onions",
+          "Chutney",
+          "Spices"
+        ],
+        "cookingMethod": "1. Boil potatoes and chickpeas\n2. Mix with spices and onions\n3. Add chutney and serve cold",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Kheer",
+        "recipeImage": "https://www.foodies.pk/wp-content/uploads/2019/09/Delicious-Traditional-Pakistani-Kheer.jpg",
+        "ingredients": [
+          "Rice",
+          "Milk",
+          "Sugar",
+          "Cardamom",
+          "Almonds"
+        ],
+        "cookingMethod": "1. Cook rice in milk with sugar and cardamom\n2. Add almonds and cook until thickened\n3. Serve hot or cold",
+        "rating": 4.3
+      },
+      {
+        "recipeName": "Chicken Karahi",
+        "recipeImage": "https://butteroverbae.com/wp-content/uploads/2022/11/chicken-karahi-close-up-2.jpg",
+        "ingredients": [
+          "Chicken",
+          "Tomatoes",
+          "Green chilies",
+          "Ginger",
+          "Garlic"
+        ],
+        "cookingMethod": "Cook chicken with tomatoes, green chilies, ginger, and garlic in a karahi (wok) until the chicken is done. Serve with naan bread or rice.",
+        "rating": 4.5
+      },
+      {
+        "recipeName": "Beef Biryani",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcaCgH9ENS2r_wUQ1G1dGnZmTM6j6LG9Sy-g&usqp=CAU",
+        "ingredients": [
+          "Beef",
+          "Rice",
+          "Yogurt",
+          "Onions",
+          "Spices"
+        ],
+        "cookingMethod": "Marinate beef in yogurt and spices, then layer with rice and onions in a pot and cook until fully done. Serve with raita (yogurt dip).",
+        "rating": 4.2
+      },
+      {
+        "recipeName": "Haleem",
+        "recipeImage": "https://hyderabadiruchulu.com/wp-content/uploads/2020/06/veg-haleem-500x500.jpg",
+        "ingredients": [
+          "Lamb",
+          "Lentils",
+          "Wheat",
+          "Spices",
+          "Onions"
+        ],
+        "cookingMethod": "Slow-cook lamb, lentils, wheat, and spices until everything is fully cooked and mixed together. Garnish with fried onions and serve with naan bread.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Palak Paneer",
+        "recipeImage": "https://gypsyplate.com/wp-content/uploads/2022/10/palak-paneer_square-480x480.jpg",
+        "ingredients": [
+          "Spinach",
+          "Paneer",
+          "Onions",
+          "Spices",
+          "Tomatoes"
+        ],
+        "cookingMethod": "Cook spinach and spices, then add paneer and tomatoes and cook until the paneer is fully cooked. Serve with naan bread or rice.",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Chef Ahmed",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UdMo5N1wBgtUOyYFzV_r54at1XXF3q0ETg&usqp=CAU",
+    "description": "Chef Ahmed is a skilled chef who specializes in creating flavorful and aromatic Pakistani biryanis and pulaos.",
+    "yearOfExperience": 10,
+    "recipe": 17,
+    "likes": 1200,
+    "recipes": [
+      {
+        "recipeName": "Haleem",
+        "recipeImage": "https://hyderabadiruchulu.com/wp-content/uploads/2020/06/veg-haleem-500x500.jpg",
+        "ingredients": [
+          "Lamb",
+          "Lentils",
+          "Wheat",
+          "Spices",
+          "Onions"
+        ],
+        "cookingMethod": "Slow-cook lamb, lentils, wheat, and spices until everything is fully cooked and mixed together. Garnish with fried onions and serve with naan bread.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Palak Paneer",
+        "recipeImage": "https://gypsyplate.com/wp-content/uploads/2022/10/palak-paneer_square-480x480.jpg",
+        "ingredients": [
+          "Spinach",
+          "Paneer",
+          "Onions",
+          "Spices",
+          "Tomatoes"
+        ],
+        "cookingMethod": "Cook spinach and spices, then add paneer and tomatoes and cook until the paneer is fully cooked. Serve with naan bread or rice.",
+        "rating": 4.4
+      },
+      {
+        "recipeName": "Kheer",
+        "recipeImage": "https://www.foodies.pk/wp-content/uploads/2019/09/Delicious-Traditional-Pakistani-Kheer.jpg",
+        "ingredients": [
+          "Rice",
+          "Milk",
+          "Sugar",
+          "Cardamom",
+          "Almonds"
+        ],
+        "cookingMethod": "1. Cook rice in milk with sugar and cardamom\n2. Add almonds and cook until thickened\n3. Serve hot or cold",
+        "rating": 4.3
+      },
+      {
+        "recipeName": "Chicken Karahi",
+        "recipeImage": "https://butteroverbae.com/wp-content/uploads/2022/11/chicken-karahi-close-up-2.jpg",
+        "ingredients": [
+          "Chicken",
+          "Tomatoes",
+          "Green chilies",
+          "Ginger",
+          "Garlic"
+        ],
+        "cookingMethod": "Cook chicken with tomatoes, green chilies, ginger, and garlic in a karahi (wok) until the chicken is done. Serve with naan bread or rice.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Chef Asfia",
+    "image": "https://img.freepik.com/premium-photo/young-chef-girl-white-outfit-holding-bowl-ok-sign-indian-pakistani-model_561639-4425.jpg",
+    "description": "Chef Nida is an expert in Pakistani desserts, with a talent for creating mouthwatering sweet treats such as gulab jamuns and ras malai.",
+    "yearOfExperience": 8,
+    "recipe": 8,
+    "likes": 1000,
+    "recipes": [
+      {
+        "recipeName": "Tahri",
+        "recipeImage": "https://i.ytimg.com/vi/yHXYBhOE9R0/maxresdefault.jpg",
+        "ingredients": [
+          "1 kg chicken or beef",
+          "1/2 kg rice",
+          "3 onions"
+          
+        ],
+        "cookingMethod": "1. Heat oil in a pot and fry the onions until golden brown.\n2. Add meat and cook for 5-7 minutes.\n3. Add chopped tomatoes and cook until the oil separates.\n4. Add water and bring to a boil. Add rice and salt to taste",
+        "rating": 4.5
+      },
+      {
+        "recipeName": "Kaali Daal",
+        "recipeImage": "https://i.ytimg.com/vi/83qr4on9T28/maxresdefault.jpg",
+        "ingredients": [
+          "1 cup whole urad dal",
+          "2 cups water",
+          "1 onion"
+          
+        ],
+        "cookingMethod": "1. Soak urad dal overnight and rinse well.\n2. In a pressure cooker, add dal and 2 cups of water.\n3. Add chopped onions and tomatoes.\n4. Add cumin seeds and salt to taste.\n5. Cook for 5-6 whistles on medium flame.\n",
+        "rating": 4.2
+      },
+      {
+        "recipeName": "Beef Keema",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfetCOYmaJV4EylqLEvl35GRXBkDmXSe6B6g&usqp=CAU",
+        "ingredients": [
+          "1/2 kg beef keema",
+          "2 onions",
+          "2 tomatoes",
+          "1/2 tsp turmeric powder"
+        ],
+        "cookingMethod": "1. Heat oil in a pan and fry onions until golden brown.\n2. Add keema and cook for 5-7 minutes.\n3. Add chopped tomatoes and cook until the oil separates.\n",
+        "rating": 4.0
+      },
+      {
+        "recipeName": "Noodles",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoR0bhDu0eRHR3h-MKWS9CoH8gLHMxAxHu1rdrxqVT&s",
+        "ingredients": [
+          "1 pack noodles",
+          "2 cups water",
+          "1 onion",
+          "1 carrot"
+        ],
+        "cookingMethod": "1. Boil noodles in 2 cups of water.\n2. Drain and set aside.\n3. Heat oil in a pan and fry onions until golden brown.\n4. Add chopped vegetables and stir-fry for 2-3 minutes.\n",
+        "rating": 4.3
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Chef Omar",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA91wJJaYf9o9_785xc09nHJVZjx3-xywDFg&usqp=CAU",
+    "description": "Chef Omar is a creative Pakistani chef who is known for his unique and delicious fusion dishes that combine Pakistani and international flavors.",
+    "yearOfExperience": 12,
+    "recipe": 16,
+    "likes": 1500,
+    "recipes": [
+      {
+        "recipeName": "Chicken Karahi",
+        "recipeImage": "https://butteroverbae.com/wp-content/uploads/2022/11/chicken-karahi-close-up-2.jpg",
+        "ingredients": [
+          "Chicken",
+          "Tomatoes",
+          "Green chilies",
+          "Ginger",
+          "Garlic"
+        ],
+        "cookingMethod": "Cook chicken with tomatoes, green chilies, ginger, and garlic in a karahi (wok) until the chicken is done. Serve with naan bread or rice.",
+        "rating": 4.5
+      },
+      {
+        "recipeName": "Beef Biryani",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcaCgH9ENS2r_wUQ1G1dGnZmTM6j6LG9Sy-g&usqp=CAU",
+        "ingredients": [
+          "Beef",
+          "Rice",
+          "Yogurt",
+          "Onions",
+          "Spices"
+        ],
+        "cookingMethod": "Marinate beef in yogurt and spices, then layer with rice and onions in a pot and cook until fully done. Serve with raita (yogurt dip).",
+        "rating": 4.2
+      },
+      {
+        "recipeName": "Haleem",
+        "recipeImage": "https://hyderabadiruchulu.com/wp-content/uploads/2020/06/veg-haleem-500x500.jpg",
+        "ingredients": [
+          "Lamb",
+          "Lentils",
+          "Wheat",
+          "Spices",
+          "Onions"
+        ],
+        "cookingMethod": "Slow-cook lamb, lentils, wheat, and spices until everything is fully cooked and mixed together. Garnish with fried onions and serve with naan bread.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Palak Paneer",
+        "recipeImage": "https://gypsyplate.com/wp-content/uploads/2022/10/palak-paneer_square-480x480.jpg",
+        "ingredients": [
+          "Spinach",
+          "Paneer",
+          "Onions",
+          "Spices",
+          "Tomatoes"
+        ],
+        "cookingMethod": "Cook spinach and spices, then add paneer and tomatoes and cook until the paneer is fully cooked. Serve with naan bread or rice.",
+        "rating": 4.4
+      },
+      {
+        "recipeName": "Aloo Gobi",
+        "recipeImage": "https://www.cookwithmanali.com/wp-content/uploads/2014/09/Indian-Aloo-Gobi-480x270.jpg",
+        "ingredients": [
+          "Potatoes",
+          "Cauliflower",
+          "Onions",
+          "Spices",
+          "Tomatoes"
+        ],
+        "cookingMethod": "Cook potatoes, cauliflower, and spices with onions and tomatoes until everything is fully cooked. Serve with naan bread or rice.",
+        "rating": 4.6
+      },
+      {
+        "recipeName": "Chicken Tikka Masala",
+        "recipeImage": "https://www.jocooks.com/wp-content/uploads/2019/06/instant-pot-chicken-tikka-masala-1-4.jpg",
+        "ingredients": [
+          "Chicken",
+          "Yogurt",
+          "Tomatoes",
+          "Spices",
+          "Cream"
+        ],
+        "cookingMethod": "Marinate chicken in yogurt and spices, grill until fully cooked, then simmer in a tomato and cream sauce. Serve with naan bread or rice.",
+        "rating": 4.3
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Chef Sana",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe843wDHg8oYfXk5NsLrTCrFmkTkyVOOGDhg&usqp=CAU",
+    "description": "Chef Sana is a talented chef who specializes in creating healthy and nutritious Pakistani dishes that are also delicious.",
+    "yearOfExperience": 7,
+    "recipe": 10,
+    "likes": 800,
+    "recipes": [
+      {
+        "recipeName": "Biryani",
+        "recipeImage": "https://geekrobocook.com/wp-content/uploads/2021/04/Pakistani-biryani-1200x900.jpg",
+        "ingredients": [
+          "Basmati Rice",
+          "Chicken",
+          "Onion",
+          "Yogurt",
+          "Tomatoes"
+        ],
+        "cookingMethod": "Cook the chicken with onions and tomatoes, add spices, layer the chicken mixture and rice in a pot, and cook until fully done. Serve with raita (yogurt dip).",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Samosas",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmd8D4IhtuaZVPMfgYUYk0ishXQu5l14pXGw&usqp=CAU",
+        "ingredients": [
+          "Flour",
+          "Potatoes",
+          "Peas",
+          "Spices",
+          "Oil"
+        ],
+        "cookingMethod": "Make a dough with flour, fill with spiced potato and pea mixture, and deep fry until golden brown. Serve with chutney.",
+        "rating": 4.5
+      },
+      {
+        "recipeName": "Chicken Karahi",
+        "recipeImage": "https://butteroverbae.com/wp-content/uploads/2022/11/chicken-karahi-close-up-2.jpg",
+        "ingredients": [
+          "Chicken",
+          "Tomatoes",
+          "Green Chillies",
+          "Ginger",
+          "Garlic"
+        ],
+        "cookingMethod": "Cook chicken with ginger, garlic, tomatoes and green chillies, add spices and simmer until fully cooked. Garnish with fresh coriander and serve hot.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Aloo Palak",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQR8EQu7DO4faex2McTQP59F7bb185DgD4eg&usqp=CAU",
+        "ingredients": [
+          "Spinach",
+          "Potatoes",
+          "Onion",
+          "Garlic",
+          "Spices"
+        ],
+        "cookingMethod": "Cook potatoes and spinach with onions and garlic, add spices, and cook until fully done. Serve hot with roti or naan.",
+        "rating": 4.3
+      },
+      {
+        "recipeName": "Kheer",
+        "recipeImage": "https://www.foodies.pk/wp-content/uploads/2019/09/Delicious-Traditional-Pakistani-Kheer.jpg",
+        "ingredients": [
+          "Rice",
+          "Milk",
+          "Sugar",
+          "Cardamom",
+          "Almonds"
+        ],
+        "cookingMethod": "Cook rice in milk with sugar and cardamom, add almonds, and simmer until thick and creamy. Serve chilled.",
+        "rating": 4.6
+      },
+      {
+        "recipeName": "Chapli Kabab",
+        "recipeImage": "https://www.pakistanichefrecipes.com/wp-content/uploads/2019/07/Chapli-Kabab-500x500.jpg",
+        "ingredients": [
+          "Ground Beef",
+          "Onion",
+          "Tomatoes",
+          "Egg",
+          "Spices"
+        ],
+        "cookingMethod": "Mix ground beef with onions, tomatoes, egg, and spices, form into patties, and fry until fully cooked. Serve with raita and naan.",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Chef Imran",
+    "image": "https://w7.pngwing.com/pngs/21/958/png-transparent-pastry-chef-restaurant-pakistani-cuisine-food-chef-s-miscellaneous-food-gourmet.png",
+    "description": "Chef Imran is an expert in Pakistani barbecue, with a talent for creating succulent and flavorful grilled meats.",
+    "yearOfExperience": 10,
+    "recipe": 13,
+    "likes": 1200,
+    "recipes": [
+      {
+        "recipeName": "Samosas",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmd8D4IhtuaZVPMfgYUYk0ishXQu5l14pXGw&usqp=CAU",
+        "ingredients": [
+          "Potatoes",
+          "Peas",
+          "Onions",
+          "Spices",
+          "Pastry"
+        ],
+        "cookingMethod": "1. Cook potatoes and peas with spices and onions\n2. Fill pastry with mixture and fold\n3. Fry in oil until golden brown",
+        "rating": 4.0
+      },
+      {
+        "recipeName": "Chaat",
+        "recipeImage": "https://i.ytimg.com/vi/6SIk77A4RU0/maxresdefault.jpg",
+        "ingredients": [
+          "Potatoes",
+          "Chickpeas",
+          "Onions",
+          "Chutney",
+          "Spices"
+        ],
+        "cookingMethod": "1. Boil potatoes and chickpeas\n2. Mix with spices and onions\n3. Add chutney and serve cold",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Kheer",
+        "recipeImage": "https://www.foodies.pk/wp-content/uploads/2019/09/Delicious-Traditional-Pakistani-Kheer.jpg",
+        "ingredients": [
+          "Rice",
+          "Milk",
+          "Sugar",
+          "Cardamom",
+          "Almonds"
+        ],
+        "cookingMethod": "1. Cook rice in milk with sugar and cardamom\n2. Add almonds and cook until thickened\n3. Serve hot or cold",
+        "rating": 4.3
+      },
+      {
+        "recipeName": "Chicken Karahi",
+        "recipeImage": "https://butteroverbae.com/wp-content/uploads/2022/11/chicken-karahi-close-up-2.jpg",
+        "ingredients": [
+          "Chicken",
+          "Tomatoes",
+          "Green chilies",
+          "Ginger",
+          "Garlic"
+        ],
+        "cookingMethod": "Cook chicken with tomatoes, green chilies, ginger, and garlic in a karahi (wok) until the chicken is done. Serve with naan bread or rice.",
+        "rating": 4.5
+      },
+      {
+        "recipeName": "Beef Biryani",
+        "recipeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcaCgH9ENS2r_wUQ1G1dGnZmTM6j6LG9Sy-g&usqp=CAU",
+        "ingredients": [
+          "Beef",
+          "Rice",
+          "Yogurt",
+          "Onions",
+          "Spices"
+        ],
+        "cookingMethod": "Marinate beef in yogurt and spices, then layer with rice and onions in a pot and cook until fully done. Serve with raita (yogurt dip).",
+        "rating": 4.2
+      },
+      {
+        "recipeName": "Haleem",
+        "recipeImage": "https://hyderabadiruchulu.com/wp-content/uploads/2020/06/veg-haleem-500x500.jpg",
+        "ingredients": [
+          "Lamb",
+          "Lentils",
+          "Wheat",
+          "Spices",
+          "Onions"
+        ],
+        "cookingMethod": "Slow-cook lamb, lentils, wheat, and spices until everything is fully cooked and mixed together. Garnish with fried onions and serve with naan bread.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Palak Paneer",
+        "recipeImage": "https://gypsyplate.com/wp-content/uploads/2022/10/palak-paneer_square-480x480.jpg",
+        "ingredients": [
+          "Spinach",
+          "Paneer",
+          "Onions",
+          "Spices",
+          "Tomatoes"
+        ],
+        "cookingMethod": "Cook spinach and spices, then add paneer and tomatoes and cook until the paneer is fully cooked. Serve with naan bread or rice.",
+        "rating": 4.4
+      }
+    ]
+  }
 ]
-  
